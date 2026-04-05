@@ -1,0 +1,19 @@
+# 💰 Edu: Mentor de Educação Financeira com IA Local
+
+O **Edu** é um agente inteligente de educação financeira que utiliza a técnica de **RAG (Retrieval-Augmented Generation)** para analisar dados locais de perfil e transações sem comprometer a privacidade do usuário.
+
+## 🧠 Diferenciais do Projeto
+- **Privacidade Total:** Processamento via **Ollama** (modelo gpt-oss). Os dados financeiros nunca saem da sua máquina.
+- **Análise Proativa:** O Edu analisa o ficheiro `transacoes.csv` para dar exemplos reais baseados nos gastos do usuário.
+- **Interface Elite:** Desenvolvido em Streamlit com foco em usabilidade e clareza.
+
+## 🛠️ Estrutura do Repositório
+- `data/`: Base de conhecimento (JSON e CSV).
+- `docs/`: Documentação estratégica e métricas.
+- `app.py`: Código fonte da aplicação.
+- `requirements.txt`: Dependências do sistema.
+
+## 🚀 Como Executar
+1. Instale as dependências: `pip install -r requirements.txt`
+2. Certifique-se que o Ollama está ativo com o modelo `gpt-oss`.
+3. Execute: `streamlit run app.py`
